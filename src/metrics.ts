@@ -6,6 +6,7 @@ export function showMetrics(app: Application) {
 			text: "",
 			style: {
 				fill: "#ffffff",
+				fontFamily: "DotGothic16 Regular",
 				fontSize: 12,
 			},
 		}),

@@ -43,9 +43,24 @@ async function init() {
 	document.body.appendChild(app.canvas);
 
 	const assets = [
+		// ボタン
 		{
-			alias: "menu",
+			alias: "button-menu",
 			src: "/assets/ui/menu.png",
+		},
+		{
+			alias: "button-menu-hover",
+			src: "/assets/ui/menu_hover.png",
+		},
+		{
+			alias: "button-menu-pressed",
+			src: "/assets/ui/menu_pressed.png",
+		},
+
+		// フォント
+		{
+			alias: "DotGothic16",
+			src: "/assets/fonts/DotGothic16-Regular.woff2",
 		},
 	];
 

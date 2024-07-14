@@ -29,6 +29,7 @@ export function stopWhenDeath(
 		text: "Game Over",
 		style: {
 			fill: "#ffffff",
+			fontFamily: "DotGothic16 Regular",
 			fontSize: 48,
 		},
 	});
