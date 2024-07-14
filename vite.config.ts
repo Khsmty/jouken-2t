@@ -6,7 +6,7 @@ export default defineConfig({
 	// root: './src',
 	// base: "",
 	build: {
-		outDir: "../www",
+		outDir: "./www",
 		minify: false,
 		emptyOutDir: false,
 	},
