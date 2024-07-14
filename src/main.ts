@@ -1,3 +1,5 @@
+import "./style.css";
+
 import { Application, Assets, type Graphics } from "pixi.js";
 import { addBullets, animateBullets } from "./bullet";
 import { trackPointer } from "./pointer";
