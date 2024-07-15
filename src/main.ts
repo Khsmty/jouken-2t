@@ -33,12 +33,17 @@ function resize() {
 		h = w / ratio;
 	}
 
+	app.renderer.canvas.style.width = `${w}px`;
+	app.renderer.canvas.style.height = `${h}px`;
+	window.scrollTo(0, 0);
+
 	app.renderer.resize(w, h);
 }
 
 async function init() {
 	await app.init({
 		background: "#000000",
+		resolution: Math.max(window.devicePixelRatio, 2),
 	});
 	document.body.appendChild(app.canvas);
 
