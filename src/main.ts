@@ -50,6 +50,10 @@ async function init() {
 	const assets = [
 		// ボタン
 		{
+			alias: "button-base",
+			src: "/assets/ui/button.png",
+		},
+		{
 			alias: "button-menu",
 			src: "/assets/ui/menu.png",
 		},

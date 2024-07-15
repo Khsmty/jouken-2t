@@ -1,5 +1,5 @@
 import { type Application, Container, type Graphics, Text } from "pixi.js";
-import { PrimaryButton } from "./ui/buttons/PrimaryButton";
+import { Button } from "./ui/buttons/Button";
 
 function judgeDeath(app: Application, enemies: Graphics[], x: number) {
 	// enemy が player に当たったら true を返す
@@ -48,7 +48,7 @@ export function stopWhenDeath(
 	// });
 	// gameOverContainer.addChild(restartButton.view);
 
-	const restartButton = new PrimaryButton({
+	const restartButton = new Button({
 		text: "Restart",
 	});
 	restartButton.x = app.screen.width / 2 - 25;
