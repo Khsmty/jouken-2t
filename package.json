@@ -16,16 +16,16 @@
 		"build": "cross-env NODE_ENV=production vite build"
 	},
 	"dependencies": {
-		"@capacitor/android": "6.0.0",
-		"@capacitor/core": "6.0.0",
-		"@capacitor/ios": "6.0.0",
+		"@capacitor/android": "6.1.2",
+		"@capacitor/core": "6.1.2",
+		"@capacitor/ios": "6.1.2",
 		"@capacitor/splash-screen": "6.0.0",
 		"@pixi/ui": "^2.1.2",
 		"pixi.js": "^8.2.3"
 	},
 	"devDependencies": {
 		"@capacitor/assets": "3.0.5",
-		"@capacitor/cli": "6.0.0",
+		"@capacitor/cli": "6.1.2",
 		"@trapezedev/configure": "7.0.10",
 		"cross-env": "^7.0.3",
 		"fs-extra": "11.2.0",
